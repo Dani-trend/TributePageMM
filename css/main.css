@@ -1,0 +1,74 @@
+.container {
+    background-color: pink;
+    width: 95%;
+    text-align: center;
+    color: #000000;
+    margin: auto;
+    font-family:Helvetica, Arial, sans-serif;
+  }
+  
+h1 {
+  font-family: 'Monoton', cursive;
+    font-size: 60px;
+    color: #D81B60;
+    padding-bottom: 5px;
+  }
+  p {
+    font-family:sams-serif;
+    font-size: 20px;
+    color: black;
+  }
+  #wiki {
+    color: #D81B60;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  h1:hover {
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+    color: white;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px white, 0 0 25px white, 0 0 45px #F06292, 0 0 70px #E91E63, 0 0 100px #EC407A, 0 0 140px #EC407A;
+    }
+    to {
+      text-shadow: 0 0 5px white, 0 0 13.5px white, 0 0 22.5px #F06292, 0 0 35px #E91E63, 0 0 45px #EC407A;
+    }
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px white, 0 0 25px white, 0 0 45px #F06292, 0 0 70px #E91E63, 0 0 120px #EC407A;
+    }
+    to {
+      text-shadow: 0 0 5px white, 0 0 13.5px white, 0 0 22.5px #F06292, 0 0 35px #E91E63, 0 0 45px #EC407A;
+    }
+  }
+  
+ 
+  #image {
+    max-width: 420px;
+    position: relative;
+}
+  
+  
+  #main {
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin-top: 65px;
+  }
+  
+  #title p:nth-child(odd) {
+    font-style: italic;
+    font-weight: bold;
+  }
+ 
+ 
+  footer p {
+      text-align: center;
+      color: darkmagenta;
+  }
